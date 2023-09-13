@@ -9,9 +9,9 @@ Serena, id:5, in San Francisco
 
 export default function getListStudents() {
   const students = [
-    {id: 1, firstName: 'Guillaume', location: 'San Fransisco' },
-    {id: 2, FirstName: 'James', locaion: 'Columbia' },
-    {id: 5, FirstName: 'Serena', location: 'San Fransisco' },
+    {id: 1, firstName: 'Guillaume', location: 'San Francisco' },
+    {id: 2, FirstName: 'James', location: 'Columbia' },
+    {id: 5, FirstName: 'Serena', location: 'San Francisco' },
   ];
   return students;
 }
