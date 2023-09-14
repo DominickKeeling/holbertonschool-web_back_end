@@ -8,5 +8,5 @@ import getListStudentIds from './1-get_list_student_ids';
 
 export default function getStudentIdsSum(students) {
   const sumOfStudents = getListStudentIds(students);
-  return sumOfStudents.reduce((sum, current) => sum =current);
+  return sumOfStudents.reduce((sum, current) => sum + current, 0);
 }
