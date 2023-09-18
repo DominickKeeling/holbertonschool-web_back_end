@@ -7,7 +7,7 @@ all the values of the set separated by -.
 */
 
 export default function cleanSet(set, startString) {
-  const filteredValues = [...set].filter((value) => value.startsWith(startString));
+  const filteredValues = [...set].filter(value => value.startsWith(startString));
 
   const resultString = filteredValues.join('-');
 
